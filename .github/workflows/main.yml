@@ -1,0 +1,2 @@
+         - name: Deploy to AWS S3
+           run: aws s3 sync . s3://practica3-webestatica --delete
